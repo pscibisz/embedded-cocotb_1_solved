@@ -32,6 +32,7 @@ SIM ?= verilator
 
 PWD=$(shell pwd)
 
+VERILOG_SOURCES = $(PWD)/../hdl/adder.sv
 export PYTHONPATH := $(PWD)/../model:$(PYTHONPATH)
 
 TOPLEVEL := adder
